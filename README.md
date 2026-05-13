@@ -49,6 +49,8 @@ So, if your pinky was 60mm:
 
 (Vertical offset of 79mm Ring finger roller pin) = 79mm - 60mm = ~19mm
 
+![Vertical offset example](Images/vertical_offset.png)
+
 ##### Roller Forward/Backward Offset
 
 The length of the PIP joint to the DIP joint ("P->D") may be used for forward/backward offsets of the rollers. Using the pinky length as "0", you can then calculate the offset of each roller by subtracting the length of the pinky P->D from the finger P->D.
@@ -56,6 +58,8 @@ The length of the PIP joint to the DIP joint ("P->D") may be used for forward/ba
 So, if your pinky P->D was 18.5mm:
 
 (Horizontal offset of a 27mm Ring finger roller pin) = 27mm - 18.5mm = ~8.5mm
+
+![Horizontal offset example](Images/horizontal_offset.png)
 
 ##### Roof Height
 
@@ -72,6 +76,8 @@ Pinky: 55°
 
 So, if your Index finger DIP to Fingertip was 28mm:
 (Roof Height) = 28 / tan(57) = ~18.18mm
+
+![Roof height example](Images/roof_height.png)
 
 #### Sisyphus
 
