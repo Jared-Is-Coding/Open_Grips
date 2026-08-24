@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'OpenGrips Prometheus V42.step',
-/* time_stamp */ '2026-05-13T08:23:55-04:00',
+/* name */ 'OpenGrips Prometheus v43.step',
+/* time_stamp */ '2026-08-24T14:20:50-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -20149,8 +20149,8 @@ SOLID_ANGLE_UNIT()
 #18267=SHAPE_REPRESENTATION('',(#8197),#18195);
 #18268=SHAPE_REPRESENTATION('',(#8214),#18196);
 #18269=PRODUCT_DEFINITION_CONTEXT('part definition',#18322,'design');
-#18270=PRODUCT_DEFINITION('OpenGrips_Prometheus',
-'OpenGrips Prometheus v42',#18287,#18269);
+#18270=PRODUCT_DEFINITION('OpenGrips_Prometheus','OpenGrips Prometheus',
+#18287,#18269);
 #18271=PRODUCT_DEFINITION('Modified','Modified',#18288,#18269);
 #18272=PRODUCT_DEFINITION('Frame','Frame',#18289,#18269);
 #18273=PRODUCT_DEFINITION('Pinky Roller','Pinky Roller',#18290,#18269);
@@ -20184,8 +20184,8 @@ SOLID_ANGLE_UNIT()
 #18301=PRODUCT_DEFINITION_FORMATION('',$,#18338);
 #18302=PRODUCT_DEFINITION_FORMATION('',$,#18339);
 #18303=PRODUCT_DEFINITION_FORMATION('',$,#18340);
-#18304=PRODUCT_RELATED_PRODUCT_CATEGORY('OpenGrips Prometheus v42',
-'OpenGrips Prometheus v42',(#18324));
+#18304=PRODUCT_RELATED_PRODUCT_CATEGORY('OpenGrips Prometheus',
+'OpenGrips Prometheus',(#18324));
 #18305=PRODUCT_RELATED_PRODUCT_CATEGORY('Modified','Modified',(#18325));
 #18306=PRODUCT_RELATED_PRODUCT_CATEGORY('Frame','Frame',(#18326));
 #18307=PRODUCT_RELATED_PRODUCT_CATEGORY('Pinky Roller','Pinky Roller',(#18327));
@@ -20208,7 +20208,7 @@ SOLID_ANGLE_UNIT()
 #18322=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #18323=PRODUCT_CONTEXT('part definition',#18322,'mechanical');
-#18324=PRODUCT('OpenGrips_Prometheus','OpenGrips Prometheus v42',
+#18324=PRODUCT('OpenGrips_Prometheus','OpenGrips Prometheus',
 'FreeCAD Model',(#18323));
 #18325=PRODUCT('Modified','Modified',$,(#18323));
 #18326=PRODUCT('Frame','Frame',$,(#18323));
